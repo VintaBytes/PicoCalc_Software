@@ -20,7 +20,7 @@ Esta versión ha sido:
 1. Ejecutar el programa en tu PicoCalc:
    ```basic
    RUN "oregontrail.bas"
-```
+   ```
 
 2. Al inicio se te preguntará si necesitas ver las **instrucciones**.
 3. Con un presupuesto inicial de \$700 (tras comprar la carreta), deberás decidir cuánto gastar en:
