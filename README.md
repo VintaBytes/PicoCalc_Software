@@ -17,7 +17,14 @@ El objetivo es **preservar, adaptar y crear software retro** en BASIC, tanto con
 
 Cada proyecto se organiza en su propia carpeta, con código fuente y documentación asociada:
 
+### ESPAÑOL
 * [Oregon Trail (ESPAÑOL)](./Oregon%20Trail) – Adaptación del clásico juego educativo creado en 1971 por Don Rawitsch, Bill Heinemann y Paul Dillenberger. Traducido al español y ajustado para la pantalla de 40 columnas.
 
 *(próximamente se irán agregando más subcarpetas con nuevos proyectos)*
+
+### ENGLISH
+* [Oregon Trail (ENGLISH)](./Oregon%20Trail%20(ENG)) – This project is an **adaptation to the PicoCalc BASIC dialect** of the classic educational game **The Oregon Trail**, originally created in **1971** by **Don Rawitsch, Bill Heinemann, and Paul Dillenberger** for the Minnesota Educational Computing Consortium (MECC).
+
+
+*(more subfolders with new projects will be added soon)*
 
