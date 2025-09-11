@@ -991,8 +991,6 @@ SUBRUTINA_ENFERMEDAD:
   ENF_SALIDA:
   IF M1<0 THEN GOTO MUERTE_L2
   IF L1=1 THEN
-    ' si venimos de nevada en el paso, 
-    ' volvemos al flujo alli
     GOTO POST_EVENTO
   ELSE
     GOTO POST_EVENTO
@@ -1000,9 +998,9 @@ SUBRUTINA_ENFERMEDAD:
 
 
 '--------------------------------------
-FINAL_DEL_JUEGO:
+SUB FINAL_DEL_JUEGO:
   PRINT: PRINT 
-  PRINT "¿INTENTAR OTRA VEZ? (S/N)";
+  PRINT "INTENTAR OTRA VEZ? (S/N)";
   INPUT a1$
   ValidarSioNo
   IF SiNo = 0 THEN
@@ -1010,7 +1008,7 @@ FINAL_DEL_JUEGO:
   ELSE
     END
   END IF
-
+END SUB
 
 '--------------------------------------
 'Helpers
@@ -1069,4 +1067,5 @@ SUB Titulo(T$):
   COLOR RGB(gold)
   PRINT CENTRAR$(T$)
   COLOR RGB(green)
+
 END SUB
