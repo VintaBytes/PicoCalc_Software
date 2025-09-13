@@ -85,7 +85,7 @@ NoPlaga:
   PRINT "LAS RATAS COMIERON"; E; " FANEGAS."
   PRINT "LE QUEDAN"; S; " FANEGAS ALMACENADAS."
 
-  IF Z = 11 THEN EvaluacionFinal
+  IF Z = 10 THEN GOTO EvaluacionFinal
   'GOSUB MostrarEstado
   GOTO MercadoDeTierras
 
@@ -222,6 +222,8 @@ Cosecha:
   P = C
   D1 = D1 + D
 
+  PresionarTecla
+  CLS
   GOTO ReporteAnual
 
 '--------------------------------------
@@ -240,14 +242,21 @@ Destituido:
 EvaluacionFinal:
   PRINT
   PRINT "EN CADA UNO DE SUS 10 PERIODOS DE"
-  PRINT "GOBIERNO, UN PROMEDIO DE"; P1 ;" POR"
+  PRINT "GOBIERNO, UN PROMEDIO DE"; STR$(P1,2) ;" POR"
   PRINT "CIENTO DE LA POBLACION MURIO DE HAMBRE."
   PRINT "EN TOTAL,"; D1; " PERSONAS MURIERON."
-  L = A / P
+
+  IF P > 0 THEN
+    L = A / P
+  ELSE
+    L = A 
+  END IF
+
   PRINT "AL INICIO TENIA 10 ACRES POR PERSONA Y"
   PRINT "AL FINAL QUEDARON"; L; " ACRES POR"
   PRINT "PERSONA."
   PRINT
+  PresionarTecla
 
   ' Evaluación del desempeño
   IF P1 > 33 THEN GOTO MalGobierno
