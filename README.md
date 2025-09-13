@@ -19,6 +19,7 @@ Cada proyecto se organiza en su propia carpeta, con código fuente y documentaci
 
 ### ESPAÑOL
 * [Oregon Trail (ESPAÑOL)](./Oregon%20Trail) – Adaptación del clásico juego educativo creado en 1971 por Don Rawitsch, Bill Heinemann y Paul Dillenberger. Traducido al español y ajustado para la pantalla de 40 columnas.
+* [Hammurabi (ESPAÑOL)](./Hammurabi) - Adaptación del histórico juego educativo **Hammurabi**, creado en los años 60,popularizado en la década de 1970 en máquinas **DEC PDP-8 y PDP-11**, y posteriormente difundido como ejemplo en numerosos libros de BASIC. Es uno de los primeros **juegos de simulación de gestión** y sirvió de inspiración para títulos posteriores dentro del género de estrategia y recursos.
 
 *(próximamente se irán agregando más subcarpetas con nuevos proyectos)*
 
