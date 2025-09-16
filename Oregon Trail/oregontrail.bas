@@ -930,9 +930,9 @@ PresionarTecla
 Titulo("TELEGRAMA:")
 PRINT
 PRINT "El presidente James K. Polk te envia"
-PRINT CENTER$("sus mas calidas felicitaciones")
-PRINT CENTER$("y te desea una vida prospera por")
-PRINT CENTER$("delante en tu nuevo hogar.")
+PRINT CENTRAR$("sus mas calidas felicitaciones")
+PRINT CENTRAR$("y te desea una vida prospera por")
+PRINT CENTRAR$("delante en tu nuevo hogar.")
 PRINT
 COLOR RGB(green)
 FINAL_DEL_JUEGO
@@ -1069,3 +1069,4 @@ SUB Titulo(T$):
   COLOR RGB(green)
 
 END SUB
+
