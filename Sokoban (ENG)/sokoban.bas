@@ -202,7 +202,7 @@ SUB JugarNivel nivel
   CargarNivel nivel
   ganador = 0
   nro_cajas = ContarCajas()
-  hits = 0s en su lugar
+  hits = 0
   movi = 0 'Movimientos
   COLOUR RGB(green), RGB(black)
   CLS
