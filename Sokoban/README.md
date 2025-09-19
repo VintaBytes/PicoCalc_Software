@@ -3,6 +3,8 @@
 Este proyecto es una **adaptación al dialecto BASIC de la PicoCalc** del clásico juego de lógica **Sokoban**, creado originalmente en 1981 por **Hiroyuki Imabayashi** en Japón.  
 Sokoban (literalmente “encargado del almacén”) es considerado uno de los juegos de puzzle más influyentes, y ha sido portado a prácticamente todas las plataformas desde los años 80 hasta hoy.
 
+![](menuppal.bmp) ![](nivel3.bmp) ![](nivel13.bmp)![](ganaste.bmp) ![](ayuda.bmp)
+
 ## Origen del juego
 En Sokoban el jugador controla a un personaje en un almacén, cuyo objetivo es **empujar cajas hasta colocarlas en posiciones designadas**.  
 Aunque las reglas son muy simples —moverse en las cuatro direcciones y empujar (pero no tirar) las cajas—, la dificultad crece rápidamente y los niveles pueden requerir un razonamiento estratégico muy complejo.  
