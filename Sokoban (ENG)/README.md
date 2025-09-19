@@ -3,6 +3,8 @@
 This project is an **adaptation to the PicoCalc BASIC dialect** of the classic logic game **Sokoban**, originally created in 1981 by **Hiroyuki Imabayashi** in Japan.  
 Sokoban (literally “warehouse keeper”) is considered one of the most influential puzzle games and has been ported to virtually every platform since the 1980s.
 
+![](mainmenu.bmp) ![](level1.bmp) ![](portada_eng.bmp)![](win1.bmp) ![](help.bmp)
+
 ## Game origin
 In Sokoban, the player controls a character inside a warehouse whose goal is to **push boxes onto designated target positions**.  
 Although the rules are very simple —move in four directions and push (but never pull) the boxes— the difficulty increases quickly, and the levels may require highly complex strategic reasoning.  
