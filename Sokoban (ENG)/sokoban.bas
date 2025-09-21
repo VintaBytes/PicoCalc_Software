@@ -178,7 +178,7 @@ SUB PantallaInicial:
 
   DibujarMarco  
 
-  opcion$ = LEER_TECLA$()
+  opcion$ = LEER_TECLADO$()
   COLOUR RGB(green),RGB(black)
   CLS
 END SUB
@@ -1290,3 +1290,4 @@ C0607EDB F8C06038 003860C0 CCCCCC78
 0000007C 3C3C0000 00003C3C E73C5A99
 995A3CE7 
 End DefineFont
+
