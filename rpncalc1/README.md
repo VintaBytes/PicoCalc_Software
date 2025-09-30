@@ -12,6 +12,9 @@ La calculadora aprovecha la pantalla gráfica de la PicoCalc para mostrar la pil
 * Sistema de **menús jerárquicos** para acceder a funciones avanzadas.
 * Pantalla de **ayuda integrada**.
 
+![](1.png)
+
+
 ##  Funciones implementadas
 
 ### Operaciones básicas
