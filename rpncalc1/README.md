@@ -5,7 +5,7 @@ La calculadora aprovecha la pantalla gráfica de la PicoCalc para mostrar la pil
 
 ## Características principales
 
-* Interfaz con pila de hasta 8 niveles.
+* Interfaz con pila de hasta 100 niveles.
 * Entrada de datos con edición básica (backspace, borrado).
 * **Modos angulares:** DEG, RAD, GRA.
 * **Modos de formato numérico:** NORM, FIX (3/6/9 decimales), SCI (3/6/9 decimales), ENG.
