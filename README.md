@@ -1,5 +1,7 @@
 # Proyectos PicoCalc en BASIC
 
+<span><img src="https://img.shields.io/badge/PicoCalc-MMBasic-5E81AC?style=for-the-badge"/></span>
+
 Este repositorio reúne diferentes proyectos de **software desarrollados para la PicoCalc**, una computadora portátil basada en el microcontrolador RP2040 creada por [ClockWorksPi](https://www.clockworkpi.com/picocalc)
 
 Todos los programas están escritos en **MMBasic**, el dialecto de BASIC soportado por la PicoCalc, teniendo en cuenta sus características particulares:
